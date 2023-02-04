@@ -1,14 +1,14 @@
 const axios = require('axios');
 const fs = require('fs');
 
-const textToSpeech = async (text, apiKey, id, fileName) => {
+const textToSpeech = async (textt, apiKey, id, fileName) => {
   
 
   try {
     const response = await axios({
       method: 'post',
       url: `https://api.elevenlabs.io/v1/text-to-speech/${id}/stream`,
-      data: { text: text},
+      data: { text: textt},
       headers: {
         'Accept': 'audio/mpeg',
         'xi-api-key': apiKey,
