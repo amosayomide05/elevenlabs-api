@@ -31,7 +31,7 @@ const textToSpeech = async (text, apiKey, fileName, id) => {
       responseType: 'stream'
     });
   
-    response.data.pipe(fs.createWriteStream(`${fileName}.mp3`));
+    response.data.pipe(fs.createWriteStream(`${fileName}`));
   } catch (error) {
     console.error(error);
   }
