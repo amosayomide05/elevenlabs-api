@@ -19,6 +19,6 @@
   "license": "MIT",
   "dependencies": {
     "axios": "latest",
-    "fs": "^0.0.2"
+    "fs": "latest"
   }
 }
