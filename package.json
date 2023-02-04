@@ -1,0 +1,24 @@
+{
+  "name": "elevenlabs-api",
+  "version": "1.0.0",
+  "description": "A library to convert text to speech using the Eleven Labs API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "text-to-speech",
+    "eleven-labs",
+    "tts",
+    "ml",
+    "ai",
+    "voice",
+    "amosayomide05"
+  ],
+  "author": "Amos Ayomide",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "latest",
+    "fs": "^0.0.2"
+  }
+}
