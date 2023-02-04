@@ -1,22 +1,8 @@
 const axios = require('axios');
 const fs = require('fs');
 
-const textToSpeech = async (text, apiKey, fileName, id) => {
-  if (!text) {
-    throw new Error('Text is required');
-  }
-
-  if (!apiKey) {
-    throw new Error('API key is required');
-  }
-
-  if (!fileName) {
-    throw new Error('File name is required');
-  }
-
-  if (!id) {
-    throw new Error('Id is required');
-  }
+const textToSpeech = async (text, apiKey, id, fileName) => {
+  
 
   try {
     const response = await axios({
