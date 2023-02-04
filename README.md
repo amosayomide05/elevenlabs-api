@@ -38,6 +38,9 @@ elevenLabsAPI({
 3. A text string to convert to speech.
 4. A file name for the output audio file.
 
+## Output
+After you successfully run the code, a file will be created (the file name you stated)
+
 ## License
 This library is released under the MIT License. See LICENSE for more details.
 
