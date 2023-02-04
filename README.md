@@ -34,7 +34,7 @@ elevenLabsAPI({
 
 ## Requirements
 1. An API key from Eleven Labs. You can sign up for an API key at https://elevenlabs.io/.
-2. An Id from Eleven Labs.
+2. An Id from Eleven Labs. (Check here to check List of ID)
 3. A text string to convert to speech.
 4. A file name for the output audio file.
 
