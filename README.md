@@ -1,6 +1,6 @@
 # Eleven Labs API
 
-A library to convert text to speech using the Eleven Labs API.
+A library to convert text to speech using the Eleven Labs API (This is an unofficial JS API)
 
 ## Installation
 
