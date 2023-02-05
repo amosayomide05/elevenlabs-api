@@ -18,18 +18,18 @@ Here's an example of how you can use this library:
 ```javascript
 const elevenLabsAPI = require('elevenlabs-api');
 
-elevenLabsAPI({
-  text: 'This is a test',
-  apiKey: 'your api key here',
-  id: 'your voice id here',
-  filename: 'audio.mp3'
-})
-  .then(() => {
-    console.log('Text to speech conversion complete');
-  })
-  .catch(error => {
-    console.error(error);
-  });
+var text = 'This is a test';
+var apiKey = 'your api key here';
+var voice_id = 'your voice id here';
+var filename ° 'audio.mp3';
+
+try {
+  textToSpeech(apiKey, text, voice_id, filename);
+  console.log(`Success, Audio saved as: ${filename}`);
+ } catch (error) {
+  console.error(`An error occurred while converting text to speech: ${error}`);
+}
+
 ```
 
 ## Requirements
