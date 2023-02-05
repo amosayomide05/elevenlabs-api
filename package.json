@@ -1,6 +1,6 @@
 {
   "name": "elevenlabs-api",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A library to convert text to speech using the Eleven Labs API",
   "main": "index.js",
   "scripts": {
