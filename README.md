@@ -30,7 +30,7 @@ try {
   console.error(`An error occurred while converting text to speech: ${error}`);
 }
 
-#If you need stream
+//If you need stream
 const fs = require('fs');
 
 const stream = fs.createReadStream(filename);
